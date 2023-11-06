@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="images/favicon.ico" />
+  <title>Frontend Practice </title>
+</head>
+
+<body>
+  <!-- Header -->
+  <nav class="bg-white border-2 border-b-black sticky top-0">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <div class="flex items-center">
+        <span class="text-3xl font-serif font-black whitespace-nowrap dark:text-black cursor-pointer">Frontend
+          Practice</span>
+      </div>
+      <button data-collapse-toggle="navbar-default" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+        aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-h idden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:border-gray-700">
+          <li>
+            <a href="index.html"
+              class="block py-2 pl-3 pr-4 text-black bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg"
+            >Home</a>
+          </li>
+          <li>
+            <a href="project.html"
+              class="block py-2 pl-3 pr-4 text-black bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg">Projects</a>
+          </li>
+          <li>
+            <a href="blog.html"
+              class="block py-2 pl-3 pr-4 text-black bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg">Blog</a>
+          </li>
+          <li>
+            <a href="faq.html"
+              class="block py-2 pl-3 pr-4 text-black bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg">FAQ</a>
+          </li>
+          <li>
+            <a href="contact.html"
+              class="block py-2 pl-3 pr-4 text-black bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg">Contact</a>
+          </li>
+          <li>
+            <a href="newslatter.html"
+              class="block py-2 pl-3 pr-4 text-black bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg">Newsletter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <div class="bg-[antiquewhite] border-2 border-b-black">
+    <div
+      class=" lg:py-20 md:py-10 lg:px-36 md:px-20 sm:px-16 px-10 py-10 grid gap-x-12 lg:grid-cols-2 md:grid-cols-1  container mx-auto">
+      <div class="lg:py-24 md:py-10 x:py-10 bg-dark">
+        <div class="flex flex-col space-y-8">
+          <h1 class="font-serif text-5xl font-black leading-tight">
+            Become a better frontend developer.
+          </h1>
+          <h1 class="text-xl font-sans font-semi">
+            Take your frontend skills to the next level by recreating
+            <span class="text-2xl font-sans font-semibold">real websites</span>
+            from
+            <span class="text-2xl font-sans font-semibold">real companies</span>.
+          </h1>
+          <h1 class="text-xl font-sans font-semi">
+            The perfect type of practice for developers of all skill levels. Are
+            you up for the challenge?
+          </h1>
+        </div>
+        <div class="grid grid-cols-4 gap-4 py-10">
+          <button class="rounded-none bg-white border-2 border-black hover:bg-black hover:text-white pt-2 pb-2">
+            View Projects
+          </button>
+          <button class="rounded-none border-2 border-black hover:bg-black hover:text-white pt-2 pb-2">
+            Learn More
+          </button>
+        </div>
+      </div>
+      <div class="lg:py-32 md:py-10 sm:py-10">
+        <img src="images/project-collage.webp" alt="" />
+      </div>
+    </div>
+  </div>
+  <!-- Text -->
+  <div class="text-center lg:px-96 lg:py-20 md:px-40 md:py-20 px-16 py-14 text-4xl font-extrabold">
+    <h1>
+      Frontend Practice provides you with the inspiration and resources to
+      create beautiful websites.
+    </h1>
+    <br />
+    <h1 class="text-2xl font-normal font-sans">
+      Here are some ways you can benefit <br />
+      from using our platform:
+    </h1>
+  </div>
+
+  <!-- Card -->
+  <div class="max-w-screen-lg py-5 text-white md:mx-auto px-5 md:px-0 grid grid-cols-1 md:grid-cols-2 gap-5">
+    <div class="border-2 border-black flex flex-col md:flex-row items-center justify-between p-4">
+      <div class="">
+        <img src="images/icon1.avif" class="w-28" alt="" />
+      </div>
+      <p class="text-center px-2 text-black w-full">
+        Enhance your skills by building real websites selected for their
+        educational value.
+      </p>
+    </div>
+    <div class="border-2 border-black flex flex-col md:flex-row items-center justify-between p-4">
+      <div class="">
+        <img src="images/icon2.avif" class="w-28" alt="" />
+      </div>
+      <p class="text-center px-2 text-black w-full">
+        Test and improve your frontend knowledge through various challenges.
+      </p>
+    </div>
+    <div class="border-2 border-black flex flex-col md:flex-row items-center justify-between p-4">
+      <div class="">
+        <img src="images/icon3.avif" class="w-28" alt="" />
+      </div>
+      <p class="text-center px-2 text-black w-full">
+        Use the provided color palettes for each project to save time.
+      </p>
+    </div>
+    <div class="border-2 border-black flex flex-col md:flex-row items-center justify-between p-4">
+      <div class="">
+        <img src="images/icon4.avif" class="w-28" alt="" />
+      </div>
+      <p class="text-center px-2 text-black w-full">
+        Find helpful, curated resources to tackle challenging elements.
+      </p>
+    </div>
+  </div>
+
+  <!-- Text -->
+  <div class="text-center lg:px-96 lg:py-20 md:px-40 md:py-20 px-16 py-14 text-4xl font-extrabold">
+    <p>Ready to become a better frontend developer?</p>
+    <br />
+    <button class="rounded-none border-2 border-black hover:bg-black hover:text-white pt-2 pb-2 text-sm px-5">
+      Get Started
+    </button>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-black border-b-black">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto pt-10 pb-5">
+      <p class="text-white">Frontend Practice - © 2023</p>
+    </div>
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-center mx-auto pb-10">
+      <div class="w-full md:block md:w-auto">
+        <ul
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-black">
+          <li>
+            <a href="index.html"
+              class="block py-2 pl-3 pr-4 text-white bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg"
+              aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="project.html"
+              class="block py-2 pl-3 pr-4 text-white bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg">Projects</a>
+          </li>
+          <li>
+            <a href="blog.html"
+              class="block py-2 pl-3 pr-4 text-white bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg">Blog</a>
+          </li>
+          <li>
+            <a href="faq.html"
+              class="block py-2 pl-3 pr-4 text-white bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg">FAQ</a>
+          </li>
+          <li>
+            <a href="contact.html"
+              class="block py-2 pl-3 pr-4 text-white bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg">Contact</a>
+          </li>
+          <li>
+            <a href="newslatter.html"
+              class="block py-2 pl-3 pr-4 text-white bg-black-700 md:bg-transparent md:text-black-700 md:p-0 dark:text-dark md:dark:text-black-500 hover:bg-none hover:border-none text-lg">Newsletter</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
